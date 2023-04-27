@@ -1,0 +1,15 @@
+.container {
+  width: 100%;
+  margin-top: 32px;
+  display: block;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+.title {
+  color: #000;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+}
