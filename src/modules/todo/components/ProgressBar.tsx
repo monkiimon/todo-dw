@@ -12,9 +12,9 @@ const ProgressBar = ({ todos }: Props) => {
   const noCompletedTodos = todos.filter((t) => t.completed).length
   const ratioTodos = (noCompletedTodos / noAllTodos) * 100 + "%"
   return (
-    <div className={styles.progressbar_container}>
+    <div className={styles.progressbar_container} id="progress-bar-container">
       <div className={styles.title}>Progress</div>
-      <div className={styles.bar_wrapper}>
+      <div className={styles.bar_wrapper} id="progress-bar">
         <div className={styles.bar_container}>
           <div className={styles.bar} style={{ width: ratioTodos }}></div>
         </div>

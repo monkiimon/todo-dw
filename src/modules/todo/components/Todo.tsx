@@ -66,11 +66,13 @@ const Todo = ({
             type="text"
             onChange={onChangeHandler}
             value={input}
+            disabled={isLoading}
           />
         ) : (
           <label className={`container-select ${completedStyle}`}>
             <div className="select-title">{title}</div>
             <input
+              name="todo-completed"
               type="checkbox"
               onChange={onTogleCompletedHandler}
               checked={completed}

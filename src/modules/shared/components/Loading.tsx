@@ -1,6 +1,6 @@
 const Loading = () => {
   return (
-    <div className="lds-container">
+    <div className="lds-container" id="lds">
       <div className="lds-ring">
         <div></div>
         <div></div>

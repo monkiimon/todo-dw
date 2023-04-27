@@ -2,7 +2,7 @@ import React from "react"
 
 import styles from "./Todolist.module.scss"
 import Todo from "./Todo"
-import { UseTodosRedux, UseTodoDispatch } from "../hooks"
+import { UseTodoDispatch } from "../hooks"
 import { TodoType } from "../types"
 
 type Props = {

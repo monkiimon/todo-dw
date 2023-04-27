@@ -29,13 +29,14 @@ const TodoInput = () => {
   }
   return (
     <div className={styles.container}>
-      <form onSubmit={submitFormHandler}>
+      <form aria-label="add new todo" onSubmit={submitFormHandler}>
         <input
           value={input}
           onChange={onChangeHandler}
           className={styles.input}
           type="text"
           placeholder="Add your todo..."
+          disabled={isLoading}
         />
       </form>
       {isLoading && (

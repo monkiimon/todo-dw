@@ -10,7 +10,7 @@ interface Props {
 }
 const TodoSection = ({ todos }: Props) => {
   return (
-    <div className={styles.wrapper}>
+    <div className={styles.wrapper} id="todo-section">
       <div className={styles.container}>
         <ProgressBar todos={todos} />
         <TodoContainer todos={todos} />
