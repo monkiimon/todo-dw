@@ -45,6 +45,9 @@ const Todo = ({
       setToggleEdit(false)
       return
     }
+    if (!input || input === "") {
+      return
+    }
     setIsLoading(true)
     const editedTodo = {
       ...todo,

@@ -16,6 +16,10 @@ body {
   box-sizing: border-box;
 }
 
+input[type="text" i] {
+  padding: 1px 2px;
+}
+
 a {
   color: inherit;
   text-decoration: underline;
@@ -43,6 +47,7 @@ a {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  padding: 1px 2px;
 }
 
 /* Hide the browser's default checkbox */
