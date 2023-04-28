@@ -7,7 +7,7 @@ type Props = {
   todos: TodoType[]
 }
 
-const ProgressBar = ({ todos }: Props) => {
+const ProgressBar = ({ todos = [] }: Props) => {
   const noAllTodos = todos.length
   const noCompletedTodos = todos.filter((t) => t.completed).length
   const ratioTodos = (noCompletedTodos / noAllTodos) * 100 + "%"
