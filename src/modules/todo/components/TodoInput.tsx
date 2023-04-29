@@ -9,7 +9,7 @@ const TodoInput = () => {
   const [isLoading, setIsLoading] = useState<boolean>(false)
   const { addTodoHandler } = UseTodoDispatch()
 
-  const onChangeHandler = (e: React.FormEvent<HTMLInputElement>) => {
+  const onChangeHandler = (e: FormEvent<HTMLInputElement>) => {
     const { value } = e.target as HTMLInputElement
     setInput(value)
   }

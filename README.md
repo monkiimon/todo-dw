@@ -1,8 +1,16 @@
 # Todo App - Next.js
 
-## Getting Started
+"Todo App" is a simple app to manage your to-does. This app implemented by Next.js
 
-First, run the development server:
+## Prerequisites
+
+```bash
+- MacOS, Windows (including WSL), and Linux are supported
+- Node.js 16.8.0 or newer
+- npm or yarn or pnpm
+```
+
+## Getting Started
 
 ```bash
 npm run dev
@@ -14,12 +22,29 @@ pnpm dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-For unit test.
+## Configuration
+
+```bash
+copy .env.example file and change name to .env
+edit variable to backend api url ex. NEXT_PUBLIC_API_END_POINT=http://localhost:3001
+```
+
+## Health check path
+
+```bash
+/api/health-check
+```
+
+## Unit test
 
 ```bash
 npm run test
 ```
 
 <br/>
-Live demo:
+## Live demo:
 <a href="https://todo-dw.vercel.app" target="_blank">https://todo-dw.vercel.app</a>
+
+## LICENSE
+
+MIT
