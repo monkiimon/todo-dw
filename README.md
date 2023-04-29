@@ -2,6 +2,10 @@
 
 "Todo App" is a simple app to manage your to-does. This app implemented by Next.js
 
+## Live demo
+
+<a href="https://todo-dw.vercel.app" target="_blank">https://todo-dw.vercel.app</a>
+
 ## Prerequisites
 
 ```bash
@@ -40,10 +44,6 @@ edit variable to backend api url ex. NEXT_PUBLIC_API_END_POINT=http://localhost:
 ```bash
 npm run test
 ```
-
-<br/>
-## Live demo:
-<a href="https://todo-dw.vercel.app" target="_blank">https://todo-dw.vercel.app</a>
 
 ## LICENSE
 
