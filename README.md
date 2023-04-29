@@ -12,6 +12,12 @@ yarn dev
 pnpm dev
 ```
 
+For unit test.
+
+```bash
+npm run test
+```
+
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 <br/>

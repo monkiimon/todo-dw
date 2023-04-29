@@ -15,10 +15,10 @@ const TodoInput = () => {
   }
   const submitFormHandler = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault()
-    setIsLoading(true)
     if (!input || input === "") {
       return
     }
+    setIsLoading(true)
     const body = {
       title: input,
       completed: false,
