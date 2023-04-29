@@ -1,6 +1,6 @@
 import { createSlice, PayloadAction } from "@reduxjs/toolkit"
 import { HYDRATE } from "next-redux-wrapper"
-import { AppState } from "@store/store"
+import { AppState } from "@/store/store"
 
 export interface TodoSliceProps {
   data: TodoType[]

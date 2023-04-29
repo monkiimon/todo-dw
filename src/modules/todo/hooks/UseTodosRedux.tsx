@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react"
 import { useSelector } from "react-redux"
-import { AppState } from "@store/store"
+import { AppState } from "@/store/store"
 
 import { TodoSliceProps } from "../todoSlice"
 
